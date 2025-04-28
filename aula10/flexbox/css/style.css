@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+/*geralmente utilizaremos dessa forma com o flexbox*/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #e2e;
+  padding: 20px;
+  margin: 0px;
+  /*flex: 1;*/
+}
+
+.grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
